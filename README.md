@@ -33,9 +33,8 @@ This pipeline is designed to optimize and annotate gene models in *Tetrahymena t
    - Strand-specific RNA-seq
 
 ```bash
-git clone https://github.com/username/tetrahymena-gene-annotation.git
-cd tetrahymena-gene-annotation
 
+     Data Analysis
     ~/biosoft/TrimGalore-0.6.6/trim_galore -q 20 -length 20 --fastqc -j 4  --paired $j $R2 -o 02Clean_data/ >> 02Clean_data/Trim_Galore.log 2>&1
 
     if [ ! -d "03Hisat2_align" ];then   mkdir -p 03Hisat2_align ; fi
