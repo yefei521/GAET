@@ -1,0 +1,1 @@
+gffcompar -r 7Merged_RMoverlap_gene.gff3 -p total gffcmp.combined.gtf_SB210-1_2_3_common gffcmp.combined.gtf_SB210_1_2_3_common gffcmp.combined.gtf_WT_C10_common gffcmp.combined.gtf_WT_C4_common gffcmp.combined.gtf_WT_C5_common gffcmp.combined.gtf_WT_C6_common gffcmp.combined.gtf_WT_C8_common gffcmp.combined.gtf_s3_common gffcmp.combined.gtf_s_common
